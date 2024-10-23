@@ -38,6 +38,95 @@
             android:layout_gravity="bottom"
             android:layout_marginBottom="50dp"
             android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonAC"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/purple"
+                    android:text="AC"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/buttonMenosMas"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/lilac"
+                    android:text="+/-"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/buttonPorcentaje"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/lilac"
+                    android:text="%"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/buttonDivide"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/purple"
+                    android:text="÷"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="7"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/lightPink"
+                    android:textSize="24sp" />
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="8"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/lightPink"
+                    android:textSize="24sp" />
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="9"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/lightPink"
+                    android:textSize="24sp" />
+                <Button
+                    android:id="@+id/buttonMultiplicacion"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/pink"
+                    android:text="×"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
 
         </LinearLayout>
 
