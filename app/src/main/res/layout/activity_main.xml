@@ -23,8 +23,8 @@
             android:layout_height="100dp"
             android:gravity="end"
             android:padding="16dp"
-            android:text="0"
-            android:textColor="@color/white"
+            android:hint="@string/zero"
+            android:textColorHint="@color/white"
             android:textSize="60sp" />
 
         <View
@@ -49,8 +49,8 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/purple"
-                    android:text="AC"
-                    android:textColor="@color/white"
+                    android:hint="@string/AC"
+                    android:textColorHint="@color/white"
                     android:textSize="24sp" />
 
                 <Button
