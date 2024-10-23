@@ -59,28 +59,28 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/lilac"
-                    android:text="+/-"
-                    android:textColor="@color/white"
+                    android:hint="@string/MinMax"
+                    android:textColorHint="@color/white"
                     android:textSize="24sp" />
 
                 <Button
-                    android:id="@+id/buttonPorcentaje"
+                    android:id="@+id/buttonPercentage"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/lilac"
-                    android:text="%"
-                    android:textColor="@color/white"
+                    android:hint="@string/percentage"
+                    android:textColorHint="@color/white"
                     android:textSize="24sp" />
 
                 <Button
-                    android:id="@+id/buttonDivide"
+                    android:id="@+id/buttonSplit"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/purple"
-                    android:text="÷"
-                    android:textColor="@color/white"
+                    android:hint="@string/split"
+                    android:textColorHint="@color/white"
                     android:textSize="24sp" />
             </LinearLayout>
 
